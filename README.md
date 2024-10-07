@@ -1,6 +1,6 @@
 # PHP
 
-U ovoj vježbi zadatak je nadodati dinamičke fukncionalnosti u web stranicu koristeći znanja JavaScripta, HTML-a iz prethodnih vježbi i povezati ih s PHP-om. U repozitoriju se nalaze datoteke `index.html` i `style.css` u kojima se nalazi osnovni kostur stranice za web trgovinu (iz prošle vježbe). U datoteci `script.js` nalazi se početna točka za JavaScript iz prethodne vježbe. Potrebno je koristiti sve do sada naučeno, kako biste ostvarili funkcionalnosti. Sve dokumente i foldere s lokalne strane postaviti na github u main branch. 
+Zadatak je nadodati dinamičke fukncionalnosti u web stranicu koristeći znanja JavaScripta, HTML-a iz prethodnih vježbi i povezati ih s PHP-om. 
 
 ## Kako raditi s PHP-om, MySQL-om, JavaScriptom, HTML-om i CSS-om koristeći XAMPP
 
@@ -45,8 +45,6 @@ U ovoj vježbi zadatak je nadodati dinamičke fukncionalnosti u web stranicu kor
 
 ## Upute za izrada shoppingcart stranice
 
-(za 2 boda)
-
 - [x]  File **admin.php** 
 Admin login:
     - Email: [admin@admin.com](mailto:admin@admin.com)
@@ -67,9 +65,7 @@ dodaje proizvod, međutim u svakom inputu će postoji predefinirane informacije 
     - (Napomena: Sve promjene koje se događaju unutar kategorije proizvode moraju se odraziti na prikazane proizvode na početnoj stranici.)
 - [x]  **Korisnikovo dodavanja artikala** u košaricu kad se klikne gumb za kupovinu artikla, brisanje artikala iz košarice i prikaz ukupne cijene košarice.  Pripaziti opciju odabira artikala više puta (komada) u košaricu .
     - [x]  Kada korisnik doda proizvode u minicart i klikne na button "Kupi sad", logika ga treba odvesti na cart page gdje će mu se u većoj varijanti košarice prikazati svi detalji koji su se nalazili unutar minicarta - naziv proizvoda, cijena, količina itd. Korisnik osim povećane verzije košarice, s desne ili lijeve strane ima informacije o narudžbi koje mora popuniti, kao i skraćeni prikaz njegove ukupne narudžbe unutar košarice (potrebno je samo definirati ukupnu cijenu košarice) gdje postoji veliki dizajnirani gumb da potvrdi svoju kupovinu. Korisnik ne može kliknuti na button ako sve informacije unutar forme za narudžbu nisu validirane i ispunjene.
-    
-    [****************dodatno]:**************** 
-    
+        
     - [x]  Kada korisnik ispuni sve podatke i klikne na button za naručiti, ako postoje tražene količine proizvoda na stanju, logika će ga prebaciti na stranicu koja mu potvrđuje njegovu narudžbu (tkz. success page). Na navedenoj stranici potrebno je definirati kako je njegova narudžba zaprimljena i prikazati kreiranu narudžbu koju je korisnik naručio. Ako ne postoje tražene količine proizvoda na stanju, potrebno je korisniku prikazati poruku (još uvijek na cart page-u) kako trenutna količina koju on želi je nedostupna. Nakon što se operacija izvrši, također je potrebno smanjiti dostupnu količinu (QTY) određenog proizvoda koji je naručen
     (potrebno je testirati i pogledati prikaz unutar sekcije "Proizvodi").]
 
