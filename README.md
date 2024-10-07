@@ -51,9 +51,7 @@ Admin login:
     - Password: admin123
     
     Administrator se mora prijaviti na stranicu (potrebno je imati predefinirane podatke za administratora u bazi koji su naglašeni u gornjem dijelu). Nakon što se administrator uspješno prijavi, logika ga vodi na admin sučelje koje ima url **/dashboard.php** u kojem postoji Meni početna, proizvodi, narudžbe i odjava. 
-    
-    [****************dodatno****************] 
-    
+        
     - [x]  Ako administrator ugasi stranicu i ponovno ode na dashboard url, automatski
     je logiran sve dok mu traje aktivni cookie. Administrator ne smije doći na navedeni URL dashboard-a ako se nije prethodno prijavio. Također, administratorova šifra unutar baze podataka mora biti enkriptirana (odabrati MD5 ili SHA256 kriptografsku metodu).
 
