@@ -17,19 +17,30 @@ To build a dynamic web application, you can follow this workflow:
 6. Use PHP to generate dynamic content on your web page by querying the database and outputting the results.
 
 ## Suggested Project Structure
-shoppingcart/
-│
-├── functions.php       # Contains all necessary functions for the shopping cart system (template header, footer, and database connection functions)
-├── index.php           # Main template file with header, footer, and basic routing to include other pages
-├── home.php            # Homepage featuring a highlighted image and 4 recently added products
-├── products.php        # Displays all products with basic pagination
-├── product.php         # Shows a single product (based on GET request) with a form to change quantity and add to cart
-├── cart.php            # Shopping cart page listing all added products with quantities, total prices, and subtotals
-├── placeorder.php      # Confirmation page displayed after order submission
-├── admin.php           # Admin login page
-├── dashboard.php       # Admin dashboard interface
-├── style.css           # Stylesheet for the shopping cart website
-└── imgs/               # Folder containing all images for the shopping cart system (featured images, product images, etc.)
+
+-- shoppingcart
+
+|-- functions.php - This file contains all the functions needed for the shopping cart system (template header, template footer, and database connection functions).
+
+|-- index.php - This file serves as the main template (header, footer, etc.) and basic routing to include the pages listed below.
+
+|-- home.php - This file is the homepage, featuring a highlighted image and 4 recently added products.
+
+|-- products.php - This file displays all products with basic pagination.
+
+|-- product.php - This file displays a single product (depending on the GET request) and includes a form that allows the user to change the quantity and add the product to the cart.
+
+|-- cart.php - The shopping cart page lists all products added to the cart, along with their quantities, total prices, and subtotals.
+
+|-- placeorder.php - A simple message page shown to the user after placing an order.
+
+|-- admin.php
+
+|-- dashboard.php - Admin dashboard interface.
+
+|-- style.css - The stylesheet used for the shopping cart website.
+
+\-- imgs folder, which contains all images for your shopping cart system (featured images, product images, etc.).
 
 ## Shopping Cart Application Features and Instructions
 
